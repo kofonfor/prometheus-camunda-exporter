@@ -1,4 +1,4 @@
-FROM docker.consulting.camunda.com/jdk8
+FROM openjdk:8u242-jdk
 
 COPY target/prometheus-camunda-exporter-springboot.jar .
 
